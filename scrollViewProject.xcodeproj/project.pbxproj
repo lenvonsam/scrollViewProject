@@ -13,6 +13,12 @@
 		2E9E19C41B09723000C86101 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9E19C31B09723000C86101 /* Images.xcassets */; };
 		2E9E19C71B09723000C86101 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9E19C51B09723000C86101 /* LaunchScreen.xib */; };
 		2E9E19D31B09723000C86101 /* scrollViewProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9E19D21B09723000C86101 /* scrollViewProjectTests.swift */; };
+		2E9E19DF1B09758A00C86101 /* samImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9E19DD1B09758A00C86101 /* samImageView.swift */; };
+		2E9E19E01B09758A00C86101 /* samImgScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9E19DE1B09758A00C86101 /* samImgScrollView.swift */; };
+		2E9E19E61B09793E00C86101 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E9E19E21B09793E00C86101 /* 1.jpg */; };
+		2E9E19E71B09793E00C86101 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E9E19E31B09793E00C86101 /* 2.jpg */; };
+		2E9E19E81B09793E00C86101 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E9E19E41B09793E00C86101 /* 3.jpg */; };
+		2E9E19E91B09793E00C86101 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E9E19E51B09793E00C86101 /* 4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		2E9E19CC1B09723000C86101 /* scrollViewProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scrollViewProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9E19D11B09723000C86101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E9E19D21B09723000C86101 /* scrollViewProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollViewProjectTests.swift; sourceTree = "<group>"; };
+		2E9E19DD1B09758A00C86101 /* samImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = samImageView.swift; sourceTree = "<group>"; };
+		2E9E19DE1B09758A00C86101 /* samImgScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = samImgScrollView.swift; sourceTree = "<group>"; };
+		2E9E19E21B09793E00C86101 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		2E9E19E31B09793E00C86101 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		2E9E19E41B09793E00C86101 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		2E9E19E51B09793E00C86101 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 		2E9E19B91B09723000C86101 /* scrollViewProject */ = {
 			isa = PBXGroup;
 			children = (
+				2E9E19DC1B09758A00C86101 /* lib */,
 				2E9E19BC1B09723000C86101 /* AppDelegate.swift */,
 				2E9E19BE1B09723000C86101 /* ViewController.swift */,
 				2E9E19C01B09723000C86101 /* Main.storyboard */,
@@ -110,6 +123,27 @@
 				2E9E19D11B09723000C86101 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E9E19DC1B09758A00C86101 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2E9E19E11B09793E00C86101 /* images */,
+				2E9E19DD1B09758A00C86101 /* samImageView.swift */,
+				2E9E19DE1B09758A00C86101 /* samImgScrollView.swift */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		2E9E19E11B09793E00C86101 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2E9E19E21B09793E00C86101 /* 1.jpg */,
+				2E9E19E31B09793E00C86101 /* 2.jpg */,
+				2E9E19E41B09793E00C86101 /* 3.jpg */,
+				2E9E19E51B09793E00C86101 /* 4.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +227,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E9E19C21B09723000C86101 /* Main.storyboard in Resources */,
+				2E9E19E91B09793E00C86101 /* 4.jpg in Resources */,
+				2E9E19E61B09793E00C86101 /* 1.jpg in Resources */,
+				2E9E19E71B09793E00C86101 /* 2.jpg in Resources */,
+				2E9E19E81B09793E00C86101 /* 3.jpg in Resources */,
 				2E9E19C71B09723000C86101 /* LaunchScreen.xib in Resources */,
 				2E9E19C41B09723000C86101 /* Images.xcassets in Resources */,
 			);
@@ -213,7 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E9E19BF1B09723000C86101 /* ViewController.swift in Sources */,
+				2E9E19E01B09758A00C86101 /* samImgScrollView.swift in Sources */,
 				2E9E19BD1B09723000C86101 /* AppDelegate.swift in Sources */,
+				2E9E19DF1B09758A00C86101 /* samImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
